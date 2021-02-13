@@ -6,7 +6,13 @@ function Home() {
   return (
     <>
       <Header />
-      <p>Esto es Home</p>
+      <p>¿Qué querés buscar?</p>
+      <Link to={"/mascotas"}>
+        <button>Mascotas</button>
+      </Link>
+      <Link to={"/refugios"}>
+        <button>Refugios</button>
+      </Link>
     </>
   );
 }
