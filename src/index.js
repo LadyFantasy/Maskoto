@@ -3,12 +3,20 @@ import ReactDOM from 'react-dom';
 import './styles/tailwind.output.css';
 import './styles/tailwind.css'
 import App from './App';
+import './index.css';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Home from "../src/pages/home"
+import Mascotas from "../src/pages/Mascotas"
+import Refugios from "../src/pages/Refugios"
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Router>
+    <Route exact path="/" component={Home} />
+    <Route exact path="/mascotas" component={Mascotas} />
+    <Route exact path="/refugios" component={Refugios} />
+
+  </Router>,
   document.getElementById('root')
 );
 
