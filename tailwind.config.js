@@ -1,3 +1,4 @@
+
 const colors = require("tailwindcss/colors");
 
 module.exports = {
@@ -917,4 +918,16 @@ module.exports = {
     zIndex: ["responsive", "focus-within", "focus"],
   },
   plugins: [],
+
+module.exports = {
+  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    extend: {}
+  },
+  variants: {
+    extend: {}
+  },
+  plugins: []
+
 };

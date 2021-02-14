@@ -4,7 +4,7 @@ import axios from "axios";
 import CardMascotas from "../../components/cardMascotas";
 
 function Mascotas() {
-  const url = "http://localhost:3000/mascotas";
+  const url = "https://hackourseit.herokuapp.com/mascotas";
 
   const [mascotas, setMascotas] = useState([]);
 
