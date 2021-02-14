@@ -1,12 +1,8 @@
-import React  from "react";
+import React from "react";
 import Header from "../../components/header";
 import { Link } from "react-router-dom";
 
-
 function Home() {
-
-  
-
   return (
     <>
       <Header />
