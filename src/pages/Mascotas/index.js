@@ -15,7 +15,6 @@ function Mascotas() {
   async function fetchData() {
     const getMascotas = await axios.get(url);
     setMascotas(getMascotas.data);
-    console.log("page", mascotas);
   }
 
   const history = useHistory();
