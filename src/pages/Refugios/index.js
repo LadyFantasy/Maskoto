@@ -1,10 +1,10 @@
 import { useHistory } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import CardRefugios from "../../components/cardRefugios"
+import CardRefugios from "../../components/cardRefugios";
 
 function Refugios() {
-  const url = "https://hackourseit.herokuapp.com/mascotas";
+  const url = "https://hackourseit.herokuapp.com/refugios";
 
   const [refugios, setRefugios] = useState([]);
 

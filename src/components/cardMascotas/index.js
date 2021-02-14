@@ -1,8 +1,7 @@
 function CardMascotas({ data }) {
   return (
     <div>
-      <p>ACÁ ABAJO VA LA IMAGEN QUE FALTA CARGAR DEL BACK</p>
-      <img src={data.image} alt="" />
+      <img src={data.image} alt="perro o gato" />
       <h2>{data.nombre}</h2>
       <p>{data.status === "libre" ? "En adopción" : "Adoptado"}</p>
       <p>
