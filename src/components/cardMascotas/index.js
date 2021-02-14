@@ -1,9 +1,16 @@
 
 
-function CardMascotas({}) {
+function CardMascotas({data}) {
+  console.log("card", data)
   return (
     <div>
-      <img src="" alt=""/>
+      <p>ACÁ ABAJO VA LA IMAGEN QUE FALTA CARGAR DEL BACK</p>
+      <img src={data.image} alt=""/>
+      <h2>{data.nombre}</h2>
+      <p>{data.status === "libre" ? "En adopción" : "Adoptado" }</p>
+      <p>Refugio: <a href="#">{data.refugio_id}</a> </p>
+      <p>{data.especie.charAt(0).toUpperCase() + data.especie.slice(1)}</p>
+
     </div>
   )
 }

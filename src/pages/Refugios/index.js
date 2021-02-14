@@ -1,6 +1,7 @@
 import { useHistory } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import CardRefugios from "../../components/cardRefugios"
 
 function Refugios() {
   const url = "http://localhost:3000/refugios";
@@ -19,7 +20,10 @@ function Refugios() {
   const history = useHistory();
   return (
     <>
-      <p>Refugios:</p>
+      <h1>Refugios:</h1>
+      {refugios.map((item, key) => {
+        return <CardRefugios key={key} data={item} />;
+      })}
       <button onClick={() => history.goBack()}>Volver</button>
     </>
   );
