@@ -4,7 +4,7 @@ import axios from "axios";
 import CardRefugios from "../../components/cardRefugios"
 
 function Refugios() {
-  const url = "http://localhost:3000/refugios";
+  const url = "https://hackourseit.herokuapp.com/mascotas";
 
   const [refugios, setRefugios] = useState([]);
 
