@@ -19,7 +19,7 @@ function Refugios() {
   const history = useHistory();
   return (
     <>
-      <p>Esto es Mascotas</p>
+      <p>Refugios:</p>
       <button onClick={() => history.goBack()}>Volver</button>
     </>
   );

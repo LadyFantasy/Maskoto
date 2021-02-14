@@ -1,6 +1,7 @@
 import { useHistory } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import Card from "../../components/cardMascotas"
 
 function Mascotas() {
   const url = "http://localhost:3000/mascotas";
@@ -14,6 +15,7 @@ function Mascotas() {
   async function fetchData() {
     const getMascotas = await axios.get(url);
     setMascotas(getMascotas.data);
+    console.log(mascotas)
   }
 
     
@@ -22,7 +24,8 @@ function Mascotas() {
   const history = useHistory();
   return (
     <>
-      <p>Esto es Mascotas</p>
+      <p>Mascotas en adopción</p>
+
       <button onClick={() => history.goBack()}>Volver</button>
     </>
   );
