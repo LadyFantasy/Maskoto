@@ -3,9 +3,9 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 function Mascotas() {
-  const url = "";
+  const url = "http://localhost:3000/mascotas";
 
-  const [mascotas, setMascotas] = useState();
+  const [mascotas, setMascotas] = useState([]);
 
   useEffect(() => {
     fetchData();
@@ -13,9 +13,11 @@ function Mascotas() {
 
   async function fetchData() {
     const getMascotas = await axios.get(url);
-
-    setMascotas(getMascotas);
+    setMascotas(getMascotas.data);
   }
+
+    
+    
 
   const history = useHistory();
   return (
