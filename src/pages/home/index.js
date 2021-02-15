@@ -1,14 +1,14 @@
 import React from "react";
-import  HomeComponent  from "../../components/home/Home.js";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer.js";
-import Button from "../../components/botton/Botton.js";
+import HomeComponent from "../../components/Home";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+// import Button from "../../components/Button";
 
 function Home() {
   return (
     <>
       <Header />
-      <HomeComponent></HomeComponent>
+      <HomeComponent />
       <Footer />
     </>
   );
