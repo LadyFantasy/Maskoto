@@ -53,7 +53,7 @@ function HomeComponent() {
             class="object-cover object-center rounded-lg "
             alt="hero"
             src="https://images.unsplash.com/photo-1609804968103-c2a95f932732?ix"
-            style="max-width: 720px; max-height: 600px"
+            // style="max-width: 720px; max-height: 600px"
           />
         </div>
       </div>
@@ -64,7 +64,7 @@ function HomeComponent() {
             class="object-cover object-center rounded-lg "
             alt="hero"
             src="https://images.unsplash.com/photo-1553688738-a278b9f063e0?ix"
-            style="max-width: 720px; max-height: 600px"
+            // style="max-width: 720px; max-height: 600px"
           />
         </div>
         <div class="flex flex-col items-center text-center lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 md:items-start md:text-left">
