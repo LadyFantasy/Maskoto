@@ -1,6 +1,7 @@
 import { useHistory } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import Header from "../../components/header/Header.js"
 import CardRefugios from "../../components/cardRefugios";
 
 function Refugios() {
@@ -20,6 +21,7 @@ function Refugios() {
   const history = useHistory();
   return (
     <>
+      <Header></Header>
       <h1>Refugios:</h1>
       {refugios.map((item, key) => {
         return <CardRefugios key={key} data={item} />;

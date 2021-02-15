@@ -1,18 +1,15 @@
 import React from "react";
-import Header from "../../components/header";
-import { Link } from "react-router-dom";
+import  HomeComponent  from "../../components/home/Home.js";
+import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer.js";
+import Button from "../../components/botton/Botton.js";
 
 function Home() {
   return (
     <>
       <Header />
-      <p>¿Qué querés buscar?</p>
-      <Link to={"/mascotas"}>
-        <button>Mascotas</button>
-      </Link>
-      <Link to={"/refugios"}>
-        <button>Refugios</button>
-      </Link>
+      <HomeComponent></HomeComponent>
+      <Footer />
     </>
   );
 }

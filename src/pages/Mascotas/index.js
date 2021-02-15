@@ -1,6 +1,8 @@
 import { useHistory } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import Header from "../../components/header/Header.js"
+import Footer from "../../components/footer/Footer"
 import CardMascotas from "../../components/cardMascotas";
 
 function Mascotas() {
@@ -20,11 +22,13 @@ function Mascotas() {
   const history = useHistory();
   return (
     <>
+      <Header />
       <h1>Mascotas en adopción</h1>
       {mascotas.map((item, key) => {
         return <CardMascotas key={key} data={item} />;
       })}
       <button onClick={() => history.goBack()}>Volver</button>
+      <Footer />
     </>
   );
 }
