@@ -1,9 +1,10 @@
 
 import { useEffect, useState } from "react";
 import axios from "axios";
-import Header from "../../components/header/index.js"
-import Footer from "../../components/footer/index"
+import Header from "../../components/Header/index.js"
+import Footer from "../../components/Footer/index"
 import CardMascotas from "../../components/cardMascotas/index.js";
+import Button from "../../components/Button"
 
 function Mascotas() {
   const url = "https://hackourseit.herokuapp.com/mascotas";

@@ -1,8 +1,10 @@
 
 import { useEffect, useState } from "react";
 import axios from "axios";
-import Header from "../../components/header/index.js"
+import Header from "../../components/Header/index.js"
 import CardRefugios from "../../components/cardRefugios";
+import Button from "../../components/Button"
+
 function Refugios() {
   const url = "https://hackourseit.herokuapp.com/refugios";
 
