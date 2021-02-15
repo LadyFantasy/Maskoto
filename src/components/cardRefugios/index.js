@@ -6,7 +6,8 @@ import "../../index.css"
 function cardRefugios({ data }) {
   return (
     <div className="containerCard">
-      <h2>{data.nombre}</h2>
+      <img className="img" src={data.image} alt="imagen refugio"/>
+      <h2 className="nombre">{data.nombre}</h2>
 
       <div className="containerLogoText">
         <img style={{ width: "1.5rem" }} src={whatsappImg} alt="whatsapp" />

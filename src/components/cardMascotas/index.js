@@ -1,16 +1,13 @@
-import "../../index.css"
+import "../../index.css";
 
 function CardMascotas({ data }) {
   return (
     <div className="containerCard">
+      <img className="img" src={data.image} alt="perro o gato" />
 
-      <img className="img" 
-     
-      src={data.image} alt="perro o gato" />
-
-      <div >
-        <h2 >{data.nombre}</h2>
-        <p >{data.status === "libre" ? "En adopción" : "Adoptado"}</p>
+      <div>
+        <h2 className="nombre">{data.nombre}</h2>
+        <p>{data.status === "libre" ? "En adopción" : "Adoptado"}</p>
         {/* <p>
         Refugio: (FALTA DATA DEL BACK)
         <a href="">{data.refugio_id}</a>

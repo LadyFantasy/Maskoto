@@ -47,3 +47,12 @@ code {
   width: 100%;
   object-fit: cover;
 }
+
+.nombre{
+  margin: .5rem auto;
+  font-size: 1.5rem;
+  background-color: rgba(58, 156, 237, 0.486);
+  color: rgb(255, 255, 255);
+  border-radius: 3px;
+  padding: .5rem;
+}
