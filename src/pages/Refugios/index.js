@@ -1,7 +1,7 @@
 import { useHistory } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import Header from "../../components/header/Header.js"
+import Header from "../../components/header/index.js"
 import CardRefugios from "../../components/cardRefugios";
 
 function Refugios() {

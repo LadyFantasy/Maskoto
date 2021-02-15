@@ -6,13 +6,15 @@ import mercadoPagoImg from "../../assets/MercadoPago_Logo.png"
 function cardRefugios({data}){
   return(
     <div>
-      <h2 >{data.nombre}</h2>
+      <h2>{data.nombre}</h2>
       <p><img style={{width: "1.5rem"}} src={whatsappImg} alt="whatsapp"/>{data.whatsapp}</p>
       <a href={data.url_donar}><img style={{width: "1.5rem"}} src={mercadoPagoImg} alt="mercadopago"/>Donar</a>
       <p>Dirección: {data.direccion}</p>
       <p>Ciudad: {data.ciudad}</p>
       <p><img style={{width: "1.5rem"}} src={instagramImg} alt="instagram"/><a href={data.instagram}>{data.nombre}</a></p>
     </div>
+
+
   )
 }
 

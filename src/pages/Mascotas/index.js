@@ -1,8 +1,8 @@
 import { useHistory } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import Header from "../../components/header/Header.js"
-import Footer from "../../components/footer/Footer"
+import Header from "../../components/header/index.js"
+import Footer from "../../components/footer/index"
 import CardMascotas from "../../components/cardMascotas";
 
 function Mascotas() {

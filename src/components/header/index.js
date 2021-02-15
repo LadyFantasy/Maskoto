@@ -9,7 +9,6 @@ function Header() {
         role="navigation"
       >
         <Link
-          to="/"
           className="text-left font-sans font-extrabold text-4xl p-4"
         >
           Maskoto
