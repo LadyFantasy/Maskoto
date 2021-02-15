@@ -51,9 +51,8 @@ function HomeComponent() {
         <div class="w-5/6 lg:max-w-lg lg:w-full md:w-1/2">
           <img
             class="object-cover object-center rounded-lg "
-            alt="hero"
+            alt="mujer abrazando a un gato"
             src="https://images.unsplash.com/photo-1609804968103-c2a95f932732?ix"
-            // style="max-width: 720px; max-height: 600px"
           />
         </div>
       </div>
@@ -62,9 +61,8 @@ function HomeComponent() {
         <div class="w-5/6 mb-10 lg:max-w-lg lg:w-full md:w-1/2 md:mb-0">
         <img
             class="object-cover object-center rounded-lg "
-            alt="hero"
-            src="https://images.unsplash.com/photo-1553688738-a278b9f063e0?ix"
-            // style="max-width: 720px; max-height: 600px"
+            alt="mujer abrazando a un perro"
+            src="https://images.pexels.com/photos/1139793/pexels-photo-1139793.jpeg"
           />
         </div>
         <div class="flex flex-col items-center text-center lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 md:items-start md:text-left">
@@ -93,6 +91,22 @@ function HomeComponent() {
           </div>
         </div>
       </div>
+      <div class="container flex flex-col items-center px-5 py-16 mx-auto lg:px-20 lg:py-24 md:flex-row">
+      <div class="flex flex-col items-center text-center lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 md:items-start md:text-left">
+          <h1 class="mb-8 text-2xl font-bold tracking-tighter text-center text-blue-800 lg:text-left lg:text-5xl title-font">
+            Colaborá con Maskoto
+          </h1>
+          <p class="mb-8 text-base leading-relaxed text-center text-gray-700 lg:text-left lg:text-1xl">
+          Maskoto es un servicio gratuito para los refugios, nuestro trabajo es solidario y lo hacemos con el objetivo de que cada vez más rescatados se conviertan en mascotas.</p> <p class="mb-8 text-base leading-relaxed text-center text-gray-700 lg:text-left lg:text-1xl">Ayudanos a mantener la página activa e incorporar cada vez más refugios comprándonos un <a href="https://cafecito" class="inline-flex items-center font-semibold text-blue-700 md:mb-2 lg:mb-0 hover:text-blue-400 " target="blank">Cafecito</a>. </p></div>
+          <div class="w-5/6 lg:max-w-lg lg:w-full md:w-1/2">
+          <img
+            class="object-cover object-center rounded-lg "
+            alt="perrito enjaulado"
+            src="https://images.unsplash.com/photo-1553688738-a278b9f063e0?ix"
+          />
+        </div>
+       </div>
+
     </>
   );
 }
