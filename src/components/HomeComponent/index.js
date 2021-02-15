@@ -10,7 +10,7 @@ function HomeComponent() {
             Maskoto
           </h2>
           <h1 class="mb-6 text-2xl font-semibold tracking-tighter text-blue-800 sm:text-5xl title-font">
-            ¿Querés darle amor a una criaturita?
+            ¿Querés darle amor a un animalito?
           </h1>
           <p class="mx-auto text-base font-medium leading-relaxed text-gray-700 lg:w-2/3">
             Somos Maskoto y te presentamos un catálogo formado por las mascotas en adopción en tu zona. ¿Estás buscando un nuevo amigo para sumar a tu familia? ¿Ya tenés bastantes mascotas pero querés colaborar con un refugio para que sigan rescatando animalitos de la calle? ¡Encontralos acá! 
