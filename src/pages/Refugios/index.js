@@ -1,8 +1,8 @@
 import { useHistory } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import Header from "../../components/Header/index.js"
-import CardRefugios from "../../components/CardRefugios/index";
+import Header from "../../components/Header/index.js";
+import CardRefugios from "../../components/CardRefugios/index.js";
 
 function Refugios() {
   const url = "https://hackourseit.herokuapp.com/refugios";
