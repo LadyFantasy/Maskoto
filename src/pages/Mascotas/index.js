@@ -1,9 +1,9 @@
 import { useHistory } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import Header from "../../components/Header/index.js";
+import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import CardMascotas from "../../components/CardMascotas";
+import CardMascotas from "../../components/CardMascotas"
 
 function Mascotas() {
   const url = "https://hackourseit.herokuapp.com/mascotas";
