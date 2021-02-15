@@ -3,9 +3,9 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Mascotas from "../src/pages/Mascotas";
-import Refugios from "../src/pages/Refugios";
+import Home from "./pages/Home/index";
+import Mascotas from "../src/pages/Mascotas/index";
+import Refugios from "../src/pages/Refugios/index";
 
 ReactDOM.render(
   <Router>
