@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import Header from "../../components/header/index.js"
 import Footer from "../../components/footer/index"
-import CardMascotas from "../../components/cardMascotas";
+import CardMascotas from "../../components/cardMascotas/index.js";
 
 function Mascotas() {
   const url = "https://hackourseit.herokuapp.com/mascotas";
