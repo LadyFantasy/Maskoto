@@ -1,5 +1,5 @@
 import React from "react";
-import HomeComponent from "../../components/Home";
+import HomeComponent from "../../components/HomeComponent";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 // import Button from "../../components/Button";
