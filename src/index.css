@@ -56,3 +56,29 @@ code {
   border-radius: 3px;
   padding: .5rem;
 }
+
+.containerCardSingle {
+  width: 80rem;
+  border: 1px solid rgb(219, 219, 219);
+  display: flex;
+  flex-direction: row;
+  /* background-color: rgb(245, 245, 245); */
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 2rem;
+  box-shadow: 3px 3px 6px rgb(167, 167, 167);
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.imgSingle {
+  height: 40rem;
+  width: 70%;
+  object-fit: cover;
+  margin: 2rem;
+}
+
+.containerInfo{
+  display: flex;
+  flex-direction: column;
+}
