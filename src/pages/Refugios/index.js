@@ -1,4 +1,4 @@
-import { useHistory } from "react-router-dom";
+
 import { useEffect, useState } from "react";
 import axios from "axios";
 import Header from "../../components/header/index.js"
@@ -17,7 +17,6 @@ function Refugios() {
     setRefugios(getRefugios.data);
   }
 
-  const history = useHistory();
   return (
     <>
       <Header></Header>
@@ -25,7 +24,7 @@ function Refugios() {
       {refugios.map((item, key) => {
         return <CardRefugios key={key} data={item} />;
       })}
-      <button onClick={() => history.goBack()}>Volver</button>
+      <Button data={"Volver"} />
     </>
   );
 }

@@ -1,4 +1,4 @@
-import { useHistory } from "react-router-dom";
+
 import { useEffect, useState } from "react";
 import axios from "axios";
 import Header from "../../components/header/index.js"
@@ -19,15 +19,15 @@ function Mascotas() {
     setMascotas(getMascotas.data);
   }
 
-  const history = useHistory();
   return (
     <>
       <Header />
       <h1>Mascotas en adopción</h1>
+      
       {mascotas.map((item, key) => {
         return <CardMascotas key={key} data={item} />;
       })}
-      <button onClick={() => history.goBack()}>Volver</button>
+      <Button data={"Volver"} />
       <Footer />
     </>
   );

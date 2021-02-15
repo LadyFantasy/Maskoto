@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Botton from "../Button/index.js";
+import Button from "../Button";
 
 function Header() {
   return (
@@ -14,7 +14,8 @@ function Header() {
           Maskoto
         </Link>
         <div className="pr-8 md:block  hidden">
-          <Botton></Botton>
+          <Button data={"mascotas"} link={true}/>
+          <Button data={"refugios"} link={true}/>
         </div>
       </nav>
     </header>
