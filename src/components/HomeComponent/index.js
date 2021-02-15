@@ -7,15 +7,13 @@ function HomeComponent() {
       <div class="container px-4 pt-20 mx-auto lg:px-2">
         <div class="flex flex-col w-full mb-12 text-left lg:text-center">
           <h2 class="mb-1 text-xs font-semibold tracking-widest text-blue-600 uppercase title-font">
-            Tremenda frase introductoria
+            Maskoto
           </h2>
           <h1 class="mb-6 text-2xl font-semibold tracking-tighter text-blue-800 sm:text-5xl title-font">
-            ¿Quieres darle amor a una criaturita?
+            ¿Querés darle amor a una criaturita?
           </h1>
           <p class="mx-auto text-base font-medium leading-relaxed text-gray-700 lg:w-2/3">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto maxime incidunt
-            blanditiis, quasi unde ipsum amet laboriosam fugiat dignissimos modi perspiciatis labore
-            fuga suscipit aspernatur, qui, adipisci voluptate dicta aliquid?
+            Somos Maskoto y te presentamos un catálogo formado por las mascotas en adopción en tu zona. ¿Estás buscando un nuevo amigo para sumar a tu familia? ¿Ya tenés bastantes mascotas pero querés colaborar con un refugio para que sigan rescatando animalitos de la calle? ¡Encontralos acá! 
           </p>
           <div style={{ display: "flex", flexDirection: "row" }}></div>
           <Button data={"mascotas"} link={true} />
@@ -26,12 +24,10 @@ function HomeComponent() {
       <div class="container flex flex-col items-center px-4 py-4 mx-auto lg:px-10 lg:py-10 md:flex-row">
         <div class="flex flex-col items-center w-full pt-0 mb-16 text-left lg:flex-grow md:w-1/2 lg:mr-20 lg:pr-24 md:pr-16 md:items-start md:text-left md:mb-0 lg:text-center">
           <h1 class="mb-8 text-2xl font-bold tracking-tighter text-center text-blue-800 lg:text-left lg:text-5xl title-font">
-            Adoptar una Mascota
+            Adoptar una mascota
           </h1>
           <p class="mb-8 text-base leading-relaxed text-center text-gray-700 lg:text-left lg:text-1xl">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto maxime incidunt
-            blanditiis, quasi unde ipsum amet laboriosam fugiat dignissimos modi perspiciatis labore
-            fuga suscipit aspernatur, qui, adipisci voluptate dicta aliquid?
+            En nuestro catálogo podés encontrar muchos animalitos que te están esperando para llegar a tu hogar. Los refugios tienen gatos y perros de todas las edades que fueron rescatados, curados, bañados, desparasitados, vacunados, castrados, y ahora buscan un techo y una familia que les dé amor.
           </p>
           <div class="flex justify-center">
             <Link
@@ -55,27 +51,27 @@ function HomeComponent() {
           <img
             class="object-cover object-center rounded-lg "
             alt="hero"
-            src="https://dummyimage.com/720x600/F3F4F7/8693ac"
+            src="https://images.unsplash.com/photo-1609804968103-c2a95f932732?ix"
+            style="max-width: 720px; max-height: 600px"
           />
         </div>
       </div>
 
       <div class="container flex flex-col items-center px-5 py-16 mx-auto lg:px-20 lg:py-24 md:flex-row">
         <div class="w-5/6 mb-10 lg:max-w-lg lg:w-full md:w-1/2 md:mb-0">
-          <img
-            class="object-cover object-center rounded"
+        <img
+            class="object-cover object-center rounded-lg "
             alt="hero"
-            src="https://dummyimage.com/720x600/F3F4F7/8693ac"
+            src="https://images.unsplash.com/photo-1553688738-a278b9f063e0?ix"
+            style="max-width: 720px; max-height: 600px"
           />
         </div>
         <div class="flex flex-col items-center text-center lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 md:items-start md:text-left">
           <h1 class="mb-8 text-2xl font-bold tracking-tighter text-center text-blue-800 lg:text-left lg:text-5xl title-font">
-            Donar a un Refugio
+            Donar a un refugio
           </h1>
           <p class="mb-8 text-base leading-relaxed text-center text-gray-700 lg:text-left lg:text-1xl">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto maxime incidunt
-            blanditiis, quasi unde ipsum amet laboriosam fugiat dignissimos modi perspiciatis labore
-            fuga suscipit aspernatur, qui, adipisci voluptate dicta aliquid?
+            Muchas veces los animales llegan a los refugios en mal estado, necesitando asistencia veterinaria. Los refugios subsisten en base a donaciones: podés encontrar links para donar usando la plataforma de Mercado Pago o contactarte directamente con ellos para hacer una donación mayor, o buscar el más cercano a tu casa para llevarles alimento, medicamentos, o cualquier otra colaboración. ¡Los animalitos también te lo van a agradecer!
           </p>
           <div class="flex justify-center">
             <Link
