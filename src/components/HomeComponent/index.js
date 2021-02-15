@@ -17,9 +17,10 @@ function HomeComponent() {
             blanditiis, quasi unde ipsum amet laboriosam fugiat dignissimos modi perspiciatis labore
             fuga suscipit aspernatur, qui, adipisci voluptate dicta aliquid?
           </p>
-          <div style={{ display: "flex", flexDirection: "row" }}></div>
+          <div style={{ display: "flex", flexDirection: "row", justifyContent:"center" }}>
           <Button data={"mascotas"} link={true} />
           <Button data={"refugios"} link={true} />
+          </div>
         </div>
       </div>
 

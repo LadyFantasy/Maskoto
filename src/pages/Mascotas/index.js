@@ -10,10 +10,13 @@ function Mascotas() {
   const url = "https://hackourseit.herokuapp.com/mascotas";
 
   const [mascotas, setMascotas] = useState([]);
+  // const [perros, setPerros] = useState([])
+  // const [gatos, setGatos] = useState([])
 
   useEffect(() => {
     fetchData();
   }, []);
+
 
   async function fetchData() {
     const getMascotas = await axios.get(url);
@@ -24,6 +27,10 @@ function Mascotas() {
     <>
       <Header />
       <h1>Mascotas en adopción</h1>
+      <div style={{ display: "flex", flexDirection: "row", justifyContent: "center" }}>
+            <Button data={"Perros"} link={true} />
+            <Button data={"Gatos"} link={true} />
+          </div>
       
       {mascotas.map((item, key) => {
         return <CardMascotas key={key} data={item} />;
