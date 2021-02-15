@@ -38,7 +38,7 @@ function HomeComponent() {
               to="/mascotas"
               class="inline-flex items-center font-semibold text-blue-700 md:mb-2 lg:mb-0 hover:text-blue-400 "
             >
-              Learn More
+              Ver más
               <svg
                 class="w-4 h-4 ml-2"
                 xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +85,7 @@ function HomeComponent() {
               to="/refugios"
               class="inline-flex items-center font-semibold text-blue-700 md:mb-2 lg:mb-0 hover:text-blue-400 "
             >
-              Learn More
+              Ver más
               <svg
                 class="w-4 h-4 ml-2"
                 xmlns="http://www.w3.org/2000/svg"
