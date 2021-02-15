@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Botton from "../botton/Botton.js";
+import Botton from "../Button/index.js";
 
 function Header() {
   return (
