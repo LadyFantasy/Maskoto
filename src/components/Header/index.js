@@ -14,8 +14,10 @@ function Header() {
           Maskoto
         </Link>
         <div className="pr-8 md:block  hidden">
-          <Button data={"mascotas"} link={true}/>
-          <Button data={"refugios"} link={true}/>
+          <div style={{ display: "flex", flexDirection: "row", justifyContent: "center" }}>
+            <Button data={"mascotas"} link={true} />
+            <Button data={"refugios"} link={true} />
+          </div>
         </div>
       </nav>
     </header>

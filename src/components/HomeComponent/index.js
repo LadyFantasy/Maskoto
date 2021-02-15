@@ -15,9 +15,10 @@ function HomeComponent() {
           <p class="mx-auto text-base font-medium leading-relaxed text-gray-700 lg:w-2/3">
             Somos Maskoto y te presentamos un catálogo formado por las mascotas en adopción en tu zona. ¿Estás buscando un nuevo amigo para sumar a tu familia? ¿Ya tenés bastantes mascotas pero querés colaborar con un refugio para que sigan rescatando animalitos de la calle? ¡Encontralos acá! 
           </p>
-          <div style={{ display: "flex", flexDirection: "row" }}></div>
+          <div style={{ display: "flex", flexDirection: "row", justifyContent:"center" }}>
           <Button data={"mascotas"} link={true} />
           <Button data={"refugios"} link={true} />
+          </div>
         </div>
       </div>
 
