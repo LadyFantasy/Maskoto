@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import Header from "../../components/Header/index.js";
 import CardRefugios from "../../components/cardRefugios/index.js";
+import Button from "../../components/Button"
 
 function Refugios() {
   const url = "https://hackourseit.herokuapp.com/refugios";
@@ -26,7 +27,7 @@ function Refugios() {
       {refugios.map((item, key) => {
         return <CardRefugios key={key} data={item} />;
       })}
-      <button onClick={() => history.goBack()}>Volver</button>
+      <Button data={"Volver"} />
     </>
   );
 }

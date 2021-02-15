@@ -18,7 +18,8 @@ function HomeComponent() {
             dignissimos modi perspiciatis labore fuga suscipit aspernatur, qui,
             adipisci voluptate dicta aliquid?
           </p>
-          <Button />
+          <Button data={"mascotas"} link={true} />
+          <Button data={"refugios"} link={true} />
         </div>
       </div>
 
