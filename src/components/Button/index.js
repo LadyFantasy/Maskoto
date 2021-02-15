@@ -17,7 +17,6 @@ function Button({ data, link }) {
           className="bg-purple-400 hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded m-2 lg:justify-center"
           onClick={() => history.goBack()}>
           {data}
-          
         </Link>
       )}
     </div>

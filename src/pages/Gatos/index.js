@@ -3,7 +3,8 @@ import Footer from "../../components/Footer";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import CardMascotas from "../../components/cardMascotas";
-import Button from "../../components/Button"
+import Button from "../../components/Button";
+import "../../index.css";
 
 function Gatos({ data }) {
   const url = "https://hackourseit.herokuapp.com/mascotas/especie/gato";
@@ -20,9 +21,11 @@ function Gatos({ data }) {
   return (
     <>
       <Header />
-      {gatos.map((item, key) => {
-        return <CardMascotas key={key} data={item} />;
-      })}
+      <div className="containerPage">
+        {gatos.map((item, key) => {
+          return <CardMascotas key={key} data={item} />;
+        })}
+      </div>
       <Button data={"Volver"} />
       <Footer />
     </>
