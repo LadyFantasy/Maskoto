@@ -19,7 +19,6 @@ function Refugios() {
     setRefugios(getRefugios.data);
   }
 
-  const history = useHistory();
   return (
     <>
       <Header></Header>
