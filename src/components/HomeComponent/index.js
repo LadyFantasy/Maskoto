@@ -13,11 +13,11 @@ function HomeComponent() {
             ¿Quieres darle amor a una criaturita?
           </h1>
           <p class="mx-auto text-base font-medium leading-relaxed text-gray-700 lg:w-2/3">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
-            maxime incidunt blanditiis, quasi unde ipsum amet laboriosam fugiat
-            dignissimos modi perspiciatis labore fuga suscipit aspernatur, qui,
-            adipisci voluptate dicta aliquid?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto maxime incidunt
+            blanditiis, quasi unde ipsum amet laboriosam fugiat dignissimos modi perspiciatis labore
+            fuga suscipit aspernatur, qui, adipisci voluptate dicta aliquid?
           </p>
+          <div style={{ display: "flex", flexDirection: "row" }}></div>
           <Button data={"mascotas"} link={true} />
           <Button data={"refugios"} link={true} />
         </div>
@@ -29,16 +29,14 @@ function HomeComponent() {
             Adoptar una Mascota
           </h1>
           <p class="mb-8 text-base leading-relaxed text-center text-gray-700 lg:text-left lg:text-1xl">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
-            maxime incidunt blanditiis, quasi unde ipsum amet laboriosam fugiat
-            dignissimos modi perspiciatis labore fuga suscipit aspernatur, qui,
-            adipisci voluptate dicta aliquid?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto maxime incidunt
+            blanditiis, quasi unde ipsum amet laboriosam fugiat dignissimos modi perspiciatis labore
+            fuga suscipit aspernatur, qui, adipisci voluptate dicta aliquid?
           </p>
           <div class="flex justify-center">
             <Link
               to="/mascotas"
-              class="inline-flex items-center font-semibold text-blue-700 md:mb-2 lg:mb-0 hover:text-blue-400 "
-            >
+              class="inline-flex items-center font-semibold text-blue-700 md:mb-2 lg:mb-0 hover:text-blue-400 ">
               Ver más
               <svg
                 class="w-4 h-4 ml-2"
@@ -46,8 +44,7 @@ function HomeComponent() {
                 viewBox="0 0 24 24"
                 width="20"
                 height="20"
-                fill="currentColor"
-              >
+                fill="currentColor">
                 <path fill="none" d="M0 0h24v24H0z" />
                 <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" />
               </svg>
@@ -76,16 +73,14 @@ function HomeComponent() {
             Donar a un Refugio
           </h1>
           <p class="mb-8 text-base leading-relaxed text-center text-gray-700 lg:text-left lg:text-1xl">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
-            maxime incidunt blanditiis, quasi unde ipsum amet laboriosam fugiat
-            dignissimos modi perspiciatis labore fuga suscipit aspernatur, qui,
-            adipisci voluptate dicta aliquid?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto maxime incidunt
+            blanditiis, quasi unde ipsum amet laboriosam fugiat dignissimos modi perspiciatis labore
+            fuga suscipit aspernatur, qui, adipisci voluptate dicta aliquid?
           </p>
           <div class="flex justify-center">
             <Link
               to="/refugios"
-              class="inline-flex items-center font-semibold text-blue-700 md:mb-2 lg:mb-0 hover:text-blue-400 "
-            >
+              class="inline-flex items-center font-semibold text-blue-700 md:mb-2 lg:mb-0 hover:text-blue-400 ">
               Ver más
               <svg
                 class="w-4 h-4 ml-2"
@@ -93,8 +88,7 @@ function HomeComponent() {
                 viewBox="0 0 24 24"
                 width="20"
                 height="20"
-                fill="currentColor"
-              >
+                fill="currentColor">
                 <path fill="none" d="M0 0h24v24H0z" />
                 <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" />
               </svg>
