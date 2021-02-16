@@ -1,4 +1,5 @@
 import "../../index.css";
+import { HashLink as Link } from 'react-router-hash-link';
 
 function CardMascotas({ data }) {
   return (
@@ -10,8 +11,9 @@ function CardMascotas({ data }) {
         <p>{data.status === "libre" ? "En adopción" : "Adoptado"}</p>
         <p>{data.especie.charAt(0).toUpperCase() + data.especie.slice(1)}</p>
         <p>{data.sexo.charAt(0).toUpperCase() + data.sexo.slice(1)}</p>
-        <button className="bg-purple-400 hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded m-2 lg:justify-center">        <a href={`https://hackathon-front.vercel.app/refugios#${data.refugio}`}>Refugio</a>
-      </button>
+        <button className="bg-purple-400 hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded m-2 lg:justify-center">
+          <Link to={`/refugios#${data.refugio}`}>Refugio de {data.nombre}</Link>
+        </button>
       </div>
     </div>
   );

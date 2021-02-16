@@ -18,6 +18,9 @@ code {
   display: flex;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 .containerPage {
   width: 90vw;
@@ -48,13 +51,13 @@ code {
   object-fit: cover;
 }
 
-.nombre{
-  margin: .5rem auto;
+.nombre {
+  margin: 0.5rem auto;
   font-size: 1.5rem;
   background-color: rgba(58, 156, 237, 0.486);
   color: rgb(255, 255, 255);
   border-radius: 3px;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .containerCardSingle {
@@ -78,7 +81,7 @@ code {
   margin: 2rem;
 }
 
-.containerInfo{
+.containerInfo {
   display: flex;
   flex-direction: column;
 }

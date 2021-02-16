@@ -21,7 +21,7 @@ function Refugios() {
 
   return (
     <>
-      <Header></Header>
+      <Header/>
       <div className="containerPage">
         {refugios.map((item, key) => {
           return <CardRefugios key={key} data={item} />;
