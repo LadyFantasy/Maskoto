@@ -64,8 +64,8 @@ html {
   width: 80rem;
   border: 1px solid rgb(219, 219, 219);
   display: flex;
-  flex-direction: row;
-  /* background-color: rgb(245, 245, 245); */
+  /* flex-direction: row; */
+  
   border-radius: 10px;
   overflow: hidden;
   margin: 2rem;
@@ -84,4 +84,6 @@ html {
 .containerInfo {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
