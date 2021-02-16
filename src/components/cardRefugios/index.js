@@ -5,9 +5,17 @@ import "../../index.css"
 
 function cardRefugios({ data }) {
   return (
-    <div className="containerCardSingle" id={data._id}>
-      <img className="imgSingle" src={data.image} alt="imagen refugio"/>
-      <div className="containerInfo">
+    <div class="min-w-screen flex items-center overflow-hidden relative py-10" id={data._id}>
+    <div class="w-full max-w-6xl rounded bg-white shadow-xl py-10 mx-auto text-gray-800 relative md:text-left" >
+      <div class="md:flex items-center -mx-10">
+            <div class="w-full md:w-3/4 px-10 mb-10 md:mb-0">
+                <div class="relative">      
+      
+      <img class="w-full relative z-10" src={data.image} alt="imagen refugio"/>
+      </div>
+      </div>
+      <div class="w-full md:w-1/2 px-10">
+      <div class="mb-10">
         <h2 className="nombre">{data.nombre}</h2>
         <div className="containerLogoText">
           <img style={{ width: "1.5rem" }} src={whatsappImg} alt="whatsapp" />
@@ -23,6 +31,9 @@ function cardRefugios({ data }) {
           <img style={{ width: "3rem" }} src={mercadoPagoImg} alt="mercadopago" />
         </a>
       </div>
+    </div>
+    </div>
+    </div>
     </div>
   );
 }

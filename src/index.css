@@ -75,8 +75,8 @@ html {
 }
 
 .imgSingle {
-  height: 40rem;
-  width: 70%;
+  height: 40vw;
+  width: 70vw;
   object-fit: cover;
   margin: 2rem;
 }
